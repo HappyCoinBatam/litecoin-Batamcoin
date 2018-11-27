@@ -5,7 +5,7 @@ Setup
 ---------------------
 Batamcoin Core is the original Batamcoin client and it builds the backbone of the network. It downloads and, by default, stores the entire history of Batamcoin transactions (which is currently more than 7 GBs); depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
 
-To download Batamcoin Core, visit [litecoin.org](https://litecoin.org).
+To download Batamcoin Core, visit [batamcoin.org](https://batamcoin.org).
 
 Running
 ---------------------
@@ -15,12 +15,12 @@ The following are some helpful notes on how to run Batamcoin on your native plat
 
 Unpack the files into a directory and run:
 
-- `bin/litecoin-qt` (GUI) or
-- `bin/litecoind` (headless)
+- `bin/batamcoin-qt` (GUI) or
+- `bin/batamcoind` (headless)
 
 ### Windows
 
-Unpack the files into a directory, and then run litecoin-qt.exe.
+Unpack the files into a directory, and then run batamcoin-qt.exe.
 
 ### OS X
 
@@ -28,10 +28,10 @@ Drag Batamcoin-Core to your applications folder, and then run Batamcoin-Core.
 
 ### Need Help?
 
-* See the documentation at the [Batamcoin Wiki](https://litecoin.info/)
+* See the documentation at the [Batamcoin Wiki](https://batamcoin.info/)
 for help and more information.
-* Ask for help on [#litecoin](http://webchat.freenode.net?channels=litecoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=litecoin).
-* Ask for help on the [BatamcoinTalk](https://litecointalk.io/) forums.
+* Ask for help on [#batamcoin](http://webchat.freenode.net?channels=batamcoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=batamcoin).
+* Ask for help on the [BatamcoinTalk](https://batamcointalk.io/) forums.
 
 Building
 ---------------------
@@ -50,7 +50,7 @@ The Batamcoin repo's [root README](/README.md) contains relevant information on 
 - [Developer Notes](developer-notes.md)
 - [Release Notes](release-notes.md)
 - [Release Process](release-process.md)
-- [Source Code Documentation (External Link)](https://dev.visucore.com/litecoin/doxygen/)
+- [Source Code Documentation (External Link)](https://dev.visucore.com/batamcoin/doxygen/)
 - [Translation Process](translation_process.md)
 - [Translation Strings Policy](translation_strings_policy.md)
 - [Travis CI](travis-ci.md)
@@ -61,8 +61,8 @@ The Batamcoin repo's [root README](/README.md) contains relevant information on 
 - [Benchmarking](benchmarking.md)
 
 ### Resources
-* Discuss on the [BatamcoinTalk](https://litecointalk.io/) forums.
-* Discuss general Batamcoin development on #litecoin-dev on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=litecoin-dev).
+* Discuss on the [BatamcoinTalk](https://batamcointalk.io/) forums.
+* Discuss general Batamcoin development on #batamcoin-dev on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=batamcoin-dev).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

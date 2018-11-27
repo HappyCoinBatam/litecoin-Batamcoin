@@ -2,7 +2,7 @@ OpenBSD build guide
 ======================
 (updated for OpenBSD 6.2)
 
-This guide describes how to build litecoind and command-line utilities on OpenBSD.
+This guide describes how to build batamcoind and command-line utilities on OpenBSD.
 
 OpenBSD is most commonly used as a server OS, so this guide does not contain instructions for building the GUI.
 
@@ -18,7 +18,7 @@ pkg_add automake # (select highest version, e.g. 1.15)
 pkg_add python # (select highest version, e.g. 3.6)
 pkg_add boost
 
-git clone https://github.com/litecoin-project/litecoin.git
+git clone https://github.com/batamcoin-project/batamcoin.git
 ```
 
 See [dependencies.md](dependencies.md) for a complete overview.
@@ -42,9 +42,9 @@ See "Berkeley DB" in [build-unix.md](build-unix.md#berkeley-db) for instructions
 You cannot use the BerkeleyDB library from ports, for the same reason as boost above (g++/libstd++ incompatibility).
 
 ```bash
-# Pick some path to install BDB to, here we create a directory within the litecoin directory
-LITECOIN_ROOT=$(pwd)
-BDB_PREFIX="${LITECOIN_ROOT}/db4"
+# Pick some path to install BDB to, here we create a directory within the batamcoin directory
+batamcoin_ROOT=$(pwd)
+BDB_PREFIX="${batamcoin_ROOT}/db4"
 mkdir -p $BDB_PREFIX
 
 # Fetch the source and verify that it is not tampered with

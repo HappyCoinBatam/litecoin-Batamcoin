@@ -143,7 +143,7 @@
     </message>
     <message>
         <source>Send coins to a Batamcoin address</source>
-        <translation>Enviar monedas a una dirección litecoin</translation>
+        <translation>Enviar monedas a una dirección batamcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -206,8 +206,8 @@
         <translation>Barra de pestañas</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>Pide pagos (genera codigos QR and litecoin: URls)</translation>
+        <source>Request payments (generates QR codes and batamcoin: URIs)</source>
+        <translation>Pide pagos (genera codigos QR and batamcoin: URls)</translation>
     </message>
     <message>
         <source>Error</source>
@@ -773,7 +773,7 @@
     </message>
     <message>
         <source>Batamcoin Core</source>
-        <translation>litecoin core</translation>
+        <translation>batamcoin core</translation>
     </message>
     <message>
         <source>Error loading block database</source>
