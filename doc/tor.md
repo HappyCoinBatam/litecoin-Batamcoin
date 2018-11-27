@@ -1,4 +1,4 @@
-TOR SUPPORT IN batamcoin
+TOR SUPPORT IN LITECOIN
 ======================
 
 It is possible to run Batamcoin as a Tor hidden service, and connect to such services.
