@@ -126,8 +126,8 @@
         <translation>Оношилгоо ба засварын консолыг онгойлго</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>Batamcoin</source>
+        <translation>Batamcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
